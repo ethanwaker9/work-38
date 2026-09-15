@@ -1,0 +1,3041 @@
+{
+ "ML-KEM-512": [
+  {
+   "name": "PQ-TLS 1.3",
+   "venue": "RFC 8446",
+   "year": 2018,
+   "family": "SIG",
+   "suite": "ML-KEM-512+ML-DSA-44",
+   "kem": "ML-KEM-512",
+   "sig": "ML-DSA-44",
+   "flows": 3,
+   "msg_sizes": [
+    832,
+    3252,
+    2452
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 3284,
+   "bytes_dn": 3252,
+   "bytes_total": 6536,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 1,
+     "verify": 1,
+     "sign": 1
+    },
+    "R": {
+     "encaps": 1,
+     "sign": 1,
+     "verify": 1
+    }
+   },
+   "t_init_us": 144.815328,
+   "t_init_sd": 41.73987870997091,
+   "t_resp_us": 134.21643133333333,
+   "t_resp_sd": 43.36421743130256,
+   "t_total_us": 280.750668,
+   "t_total_sd": 66.66855657530849,
+   "t_init_med": 133.35399999999998,
+   "t_resp_med": 122.729,
+   "m4_cycles_init": 6185334,
+   "m4_cycles_resp": 5755625,
+   "m4_stack_init": 44816,
+   "m4_stack_resp": 44816,
+   "m4_cpu_mJ_init": 2.8993753124999997,
+   "m4_cpu_mJ_resp": 2.69794921875,
+   "asym_init_us": 113.31972166666667,
+   "asym_resp_us": 103.89944333333334,
+   "device_state_bytes": 3872,
+   "gateway_state_per_device": 1312,
+   "links": {
+    "802.15.4": {
+     "frames_up": 42,
+     "frames_dn": 41,
+     "frames": 83,
+     "radio_mJ": 14.214528000000001
+    },
+    "BLE 5": {
+     "frames_up": 15,
+     "frames_dn": 14,
+     "frames": 29,
+     "radio_mJ": 14.991360000000002
+    },
+    "LoRaWAN": {
+     "frames_up": 16,
+     "frames_dn": 15,
+     "frames": 31,
+     "radio_mJ": 14.577408000000002
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 3,
+     "frames": 6,
+     "radio_mJ": 17.208576000000004
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 3,
+     "frames": 6,
+     "radio_mJ": 15.611904000000003
+    }
+   }
+  },
+  {
+   "name": "PQ-TLS 1.3",
+   "venue": "RFC 8446",
+   "year": 2018,
+   "family": "SIG",
+   "suite": "ML-KEM-512+Falcon-padded-512",
+   "kem": "ML-KEM-512",
+   "sig": "Falcon-padded-512",
+   "flows": 3,
+   "msg_sizes": [
+    832,
+    1498,
+    698
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 1530,
+   "bytes_dn": 1498,
+   "bytes_total": 3028,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 1,
+     "verify": 1,
+     "sign": 1
+    },
+    "R": {
+     "encaps": 1,
+     "sign": 1,
+     "verify": 1
+    }
+   },
+   "t_init_us": 235.62977266666667,
+   "t_init_sd": 286.43084269543726,
+   "t_resp_us": 213.96831866666668,
+   "t_resp_sd": 47.485785571668195,
+   "t_total_us": 451.5011993333333,
+   "t_total_sd": 307.49268070508106,
+   "t_init_med": 210.22899999999998,
+   "t_resp_med": 200.708,
+   "m4_cycles_init": null,
+   "m4_cycles_resp": null,
+   "m4_stack_init": null,
+   "m4_stack_resp": null,
+   "m4_cpu_mJ_init": null,
+   "m4_cpu_mJ_resp": null,
+   "asym_init_us": 189.25277499999999,
+   "asym_resp_us": 179.83249666666666,
+   "device_state_bytes": 2178,
+   "gateway_state_per_device": 897,
+   "links": {
+    "802.15.4": {
+     "frames_up": 20,
+     "frames_dn": 19,
+     "frames": 39,
+     "radio_mJ": 6.687360000000002
+    },
+    "BLE 5": {
+     "frames_up": 7,
+     "frames_dn": 7,
+     "frames": 14,
+     "radio_mJ": 7.214592000000001
+    },
+    "LoRaWAN": {
+     "frames_up": 8,
+     "frames_dn": 7,
+     "frames": 15,
+     "radio_mJ": 7.075584000000001
+    },
+    "NB-IoT": {
+     "frames_up": 2,
+     "frames_dn": 2,
+     "frames": 4,
+     "radio_mJ": 11.472384000000002
+    },
+    "IPv6 min": {
+     "frames_up": 2,
+     "frames_dn": 2,
+     "frames": 4,
+     "radio_mJ": 10.407936000000001
+    }
+   }
+  },
+  {
+   "name": "EDHOC (method 0)",
+   "venue": "RFC 9528",
+   "year": 2024,
+   "family": "SIG",
+   "suite": "ML-KEM-512+ML-DSA-44",
+   "kem": "ML-KEM-512",
+   "sig": "ML-DSA-44",
+   "flows": 3,
+   "msg_sizes": [
+    812,
+    3198,
+    2428
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 3240,
+   "bytes_dn": 3198,
+   "bytes_total": 6438,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 1,
+     "verify": 1,
+     "sign": 1
+    },
+    "R": {
+     "encaps": 1,
+     "sign": 1,
+     "verify": 1
+    }
+   },
+   "t_init_us": 140.54642,
+   "t_init_sd": 43.557965117418725,
+   "t_resp_us": 128.42005466666666,
+   "t_resp_sd": 42.77335246471037,
+   "t_total_us": 270.84462333333335,
+   "t_total_sd": 63.705119576834555,
+   "t_init_med": 127.333,
+   "t_resp_med": 115.1465,
+   "m4_cycles_init": 6185334,
+   "m4_cycles_resp": 5755625,
+   "m4_stack_init": 44816,
+   "m4_stack_resp": 44816,
+   "m4_cpu_mJ_init": 2.8993753124999997,
+   "m4_cpu_mJ_resp": 2.69794921875,
+   "asym_init_us": 113.31972166666667,
+   "asym_resp_us": 103.89944333333334,
+   "device_state_bytes": 3872,
+   "gateway_state_per_device": 1312,
+   "links": {
+    "802.15.4": {
+     "frames_up": 41,
+     "frames_dn": 40,
+     "frames": 81,
+     "radio_mJ": 13.872384000000002
+    },
+    "BLE 5": {
+     "frames_up": 14,
+     "frames_dn": 14,
+     "frames": 28,
+     "radio_mJ": 14.429184000000001
+    },
+    "LoRaWAN": {
+     "frames_up": 15,
+     "frames_dn": 15,
+     "frames": 30,
+     "radio_mJ": 14.065920000000002
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 3,
+     "frames": 6,
+     "radio_mJ": 17.208576000000004
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 3,
+     "frames": 6,
+     "radio_mJ": 15.611904000000003
+    }
+   }
+  },
+  {
+   "name": "KEMTLS",
+   "venue": "CCS",
+   "year": 2020,
+   "family": "KEM",
+   "suite": "ML-KEM-512",
+   "kem": "ML-KEM-512",
+   "sig": null,
+   "flows": 5,
+   "msg_sizes": [
+    832,
+    800,
+    768,
+    800,
+    32
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 1632,
+   "bytes_dn": 1600,
+   "bytes_total": 3232,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 2,
+     "encaps": 1
+    },
+    "R": {
+     "encaps": 2,
+     "decaps": 1
+    }
+   },
+   "t_init_us": 71.60978466666667,
+   "t_init_sd": 408.03526039264256,
+   "t_resp_us": 44.232914666666666,
+   "t_resp_sd": 12.221870502370667,
+   "t_total_us": 117.88158,
+   "t_total_sd": 411.33885281640437,
+   "t_init_med": 50.667,
+   "t_resp_med": 41.166,
+   "m4_cycles_init": 1639638,
+   "m4_cycles_resp": 1209929,
+   "m4_stack_init": 5436,
+   "m4_stack_resp": 5436,
+   "m4_cpu_mJ_init": 0.7685803124999999,
+   "m4_cpu_mJ_resp": 0.5671542187499999,
+   "asym_init_us": 39.59610833333333,
+   "asym_resp_us": 30.175830000000005,
+   "device_state_bytes": 2432,
+   "gateway_state_per_device": 800,
+   "links": {
+    "802.15.4": {
+     "frames_up": 22,
+     "frames_dn": 20,
+     "frames": 42,
+     "radio_mJ": 7.216128
+    },
+    "BLE 5": {
+     "frames_up": 9,
+     "frames_dn": 8,
+     "frames": 17,
+     "radio_mJ": 8.807424000000001
+    },
+    "LoRaWAN": {
+     "frames_up": 9,
+     "frames_dn": 8,
+     "frames": 17,
+     "radio_mJ": 8.013312
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 14.601216000000003
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 13.246464000000003
+    }
+   }
+  },
+  {
+   "name": "KEMTLS-PDK",
+   "venue": "ESORICS",
+   "year": 2021,
+   "family": "KEM",
+   "suite": "ML-KEM-512",
+   "kem": "ML-KEM-512",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    1600,
+    1600,
+    32
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 1632,
+   "bytes_dn": 1600,
+   "bytes_total": 3232,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "encaps": 1,
+     "decaps": 2
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 2
+    }
+   },
+   "t_init_us": 53.908344666666665,
+   "t_init_sd": 12.012223101624649,
+   "t_resp_us": 43.54967466666667,
+   "t_resp_sd": 11.795685961040652,
+   "t_total_us": 98.947558,
+   "t_total_sd": 22.789737350336065,
+   "t_init_med": 50.8335,
+   "t_resp_med": 40.916,
+   "m4_cycles_init": 1639638,
+   "m4_cycles_resp": 1209929,
+   "m4_stack_init": 5436,
+   "m4_stack_resp": 5436,
+   "m4_cpu_mJ_init": 0.7685803124999999,
+   "m4_cpu_mJ_resp": 0.5671542187499999,
+   "asym_init_us": 39.59610833333333,
+   "asym_resp_us": 30.175830000000005,
+   "device_state_bytes": 2432,
+   "gateway_state_per_device": 800,
+   "links": {
+    "802.15.4": {
+     "frames_up": 21,
+     "frames_dn": 20,
+     "frames": 41,
+     "radio_mJ": 7.029504000000001
+    },
+    "BLE 5": {
+     "frames_up": 8,
+     "frames_dn": 7,
+     "frames": 15,
+     "radio_mJ": 7.776768000000001
+    },
+    "LoRaWAN": {
+     "frames_up": 9,
+     "frames_dn": 8,
+     "frames": 17,
+     "radio_mJ": 8.013312
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 14.601216000000003
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 13.246464000000003
+    }
+   }
+  },
+  {
+   "name": "PQ-WireGuard",
+   "venue": "IEEE S&P",
+   "year": 2021,
+   "family": "KEM",
+   "suite": "ML-KEM-512",
+   "kem": "ML-KEM-512",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    1684,
+    1600,
+    32
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 1716,
+   "bytes_dn": 1600,
+   "bytes_total": 3316,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "encaps": 1,
+     "decaps": 2
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 2
+    }
+   },
+   "t_init_us": 51.26148466666667,
+   "t_init_sd": 4.229841903794777,
+   "t_resp_us": 41.35693066666666,
+   "t_resp_sd": 5.947445306728446,
+   "t_total_us": 93.98137666666666,
+   "t_total_sd": 9.359692218308012,
+   "t_init_med": 49.792,
+   "t_resp_med": 40.042,
+   "m4_cycles_init": 1639638,
+   "m4_cycles_resp": 1209929,
+   "m4_stack_init": 5436,
+   "m4_stack_resp": 5436,
+   "m4_cpu_mJ_init": 0.7685803124999999,
+   "m4_cpu_mJ_resp": 0.5671542187499999,
+   "asym_init_us": 39.59610833333333,
+   "asym_resp_us": 30.175830000000005,
+   "device_state_bytes": 2432,
+   "gateway_state_per_device": 800,
+   "links": {
+    "802.15.4": {
+     "frames_up": 22,
+     "frames_dn": 20,
+     "frames": 42,
+     "radio_mJ": 7.216128
+    },
+    "BLE 5": {
+     "frames_up": 8,
+     "frames_dn": 7,
+     "frames": 15,
+     "radio_mJ": 7.776768000000001
+    },
+    "LoRaWAN": {
+     "frames_up": 9,
+     "frames_dn": 8,
+     "frames": 17,
+     "radio_mJ": 8.013312
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 14.601216000000003
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 13.246464000000003
+    }
+   }
+  },
+  {
+   "name": "FSXY KEM-AKE",
+   "venue": "CT-RSA",
+   "year": 2012,
+   "family": "KEM",
+   "suite": "ML-KEM-512",
+   "kem": "ML-KEM-512",
+   "sig": null,
+   "flows": 2,
+   "msg_sizes": [
+    1568,
+    1536
+   ],
+   "msg_dirs": [
+    "I",
+    "R"
+   ],
+   "bytes_up": 1568,
+   "bytes_dn": 1536,
+   "bytes_total": 3104,
+   "ops": {
+    "I": {
+     "encaps": 1,
+     "keygen": 1,
+     "decaps": 2
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 2
+    }
+   },
+   "t_init_us": 48.16562533333333,
+   "t_init_sd": 2.491346299150633,
+   "t_resp_us": 38.253416,
+   "t_resp_sd": 2.880842133406596,
+   "t_total_us": 87.5592,
+   "t_total_sd": 4.77281015084405,
+   "t_init_med": 47.229,
+   "t_resp_med": 37.417,
+   "m4_cycles_init": 1639638,
+   "m4_cycles_resp": 1209929,
+   "m4_stack_init": 5436,
+   "m4_stack_resp": 5436,
+   "m4_cpu_mJ_init": 0.7685803124999999,
+   "m4_cpu_mJ_resp": 0.5671542187499999,
+   "asym_init_us": 39.59610833333333,
+   "asym_resp_us": 30.175830000000005,
+   "device_state_bytes": 2432,
+   "gateway_state_per_device": 800,
+   "links": {
+    "802.15.4": {
+     "frames_up": 20,
+     "frames_dn": 19,
+     "frames": 39,
+     "radio_mJ": 6.687360000000002
+    },
+    "BLE 5": {
+     "frames_up": 7,
+     "frames_dn": 7,
+     "frames": 14,
+     "radio_mJ": 7.214592000000001
+    },
+    "LoRaWAN": {
+     "frames_up": 8,
+     "frames_dn": 7,
+     "frames": 15,
+     "radio_mJ": 7.075584000000001
+    },
+    "NB-IoT": {
+     "frames_up": 2,
+     "frames_dn": 2,
+     "frames": 4,
+     "radio_mJ": 11.472384000000002
+    },
+    "IPv6 min": {
+     "frames_up": 2,
+     "frames_dn": 2,
+     "frames": 4,
+     "radio_mJ": 10.407936000000001
+    }
+   }
+  },
+  {
+   "name": "Kyber.AKE",
+   "venue": "IEEE EuroS&P",
+   "year": 2018,
+   "family": "KEM",
+   "suite": "ML-KEM-512",
+   "kem": "ML-KEM-512",
+   "sig": null,
+   "flows": 2,
+   "msg_sizes": [
+    1568,
+    1536
+   ],
+   "msg_dirs": [
+    "I",
+    "R"
+   ],
+   "bytes_up": 1568,
+   "bytes_dn": 1536,
+   "bytes_total": 3104,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "encaps": 1,
+     "decaps": 2
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 2
+    }
+   },
+   "t_init_us": 57.005785333333336,
+   "t_init_sd": 21.790346121878184,
+   "t_resp_us": 44.83919866666667,
+   "t_resp_sd": 17.184563263634747,
+   "t_total_us": 103.31258933333334,
+   "t_total_sd": 37.14153797398118,
+   "t_init_med": 57.416,
+   "t_resp_med": 45.2085,
+   "m4_cycles_init": 1639638,
+   "m4_cycles_resp": 1209929,
+   "m4_stack_init": 5436,
+   "m4_stack_resp": 5436,
+   "m4_cpu_mJ_init": 0.7685803124999999,
+   "m4_cpu_mJ_resp": 0.5671542187499999,
+   "asym_init_us": 39.59610833333333,
+   "asym_resp_us": 30.175830000000005,
+   "device_state_bytes": 2432,
+   "gateway_state_per_device": 800,
+   "links": {
+    "802.15.4": {
+     "frames_up": 20,
+     "frames_dn": 19,
+     "frames": 39,
+     "radio_mJ": 6.687360000000002
+    },
+    "BLE 5": {
+     "frames_up": 7,
+     "frames_dn": 7,
+     "frames": 14,
+     "radio_mJ": 7.214592000000001
+    },
+    "LoRaWAN": {
+     "frames_up": 8,
+     "frames_dn": 7,
+     "frames": 15,
+     "radio_mJ": 7.075584000000001
+    },
+    "NB-IoT": {
+     "frames_up": 2,
+     "frames_dn": 2,
+     "frames": 4,
+     "radio_mJ": 11.472384000000002
+    },
+    "IPv6 min": {
+     "frames_up": 2,
+     "frames_dn": 2,
+     "frames": 4,
+     "radio_mJ": 10.407936000000001
+    }
+   }
+  },
+  {
+   "name": "EDHOC-KEM",
+   "venue": "USENIX Sec.",
+   "year": 2023,
+   "family": "KEM",
+   "suite": "ML-KEM-512",
+   "kem": "ML-KEM-512",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    812,
+    1562,
+    792
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 1604,
+   "bytes_dn": 1562,
+   "bytes_total": 3166,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 2,
+     "encaps": 1
+    },
+    "R": {
+     "encaps": 2,
+     "decaps": 1
+    }
+   },
+   "t_init_us": 57.077408,
+   "t_init_sd": 5.9867184385829715,
+   "t_resp_us": 46.071368,
+   "t_resp_sd": 4.704236674521099,
+   "t_total_us": 104.631912,
+   "t_total_sd": 10.162037590378024,
+   "t_init_med": 55.417,
+   "t_resp_med": 44.833,
+   "m4_cycles_init": 1639638,
+   "m4_cycles_resp": 1209929,
+   "m4_stack_init": 5436,
+   "m4_stack_resp": 5436,
+   "m4_cpu_mJ_init": 0.7685803124999999,
+   "m4_cpu_mJ_resp": 0.5671542187499999,
+   "asym_init_us": 39.59610833333333,
+   "asym_resp_us": 30.175830000000005,
+   "device_state_bytes": 2432,
+   "gateway_state_per_device": 800,
+   "links": {
+    "802.15.4": {
+     "frames_up": 21,
+     "frames_dn": 20,
+     "frames": 41,
+     "radio_mJ": 7.029504000000001
+    },
+    "BLE 5": {
+     "frames_up": 8,
+     "frames_dn": 7,
+     "frames": 15,
+     "radio_mJ": 7.776768000000001
+    },
+    "LoRaWAN": {
+     "frames_up": 8,
+     "frames_dn": 8,
+     "frames": 16,
+     "radio_mJ": 7.501824000000001
+    },
+    "NB-IoT": {
+     "frames_up": 2,
+     "frames_dn": 2,
+     "frames": 4,
+     "radio_mJ": 11.472384000000002
+    },
+    "IPv6 min": {
+     "frames_up": 2,
+     "frames_dn": 2,
+     "frames": 4,
+     "radio_mJ": 10.407936000000001
+    }
+   }
+  },
+  {
+   "name": "TLS 1.3 PSK+KEM",
+   "venue": "RFC 8446",
+   "year": 2018,
+   "family": "PSK",
+   "suite": "ML-KEM-512",
+   "kem": "ML-KEM-512",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    896,
+    832,
+    32
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 928,
+   "bytes_dn": 832,
+   "bytes_total": 1760,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 1
+    },
+    "R": {
+     "encaps": 1
+    }
+   },
+   "t_init_us": 31.231093333333334,
+   "t_init_sd": 3.523071715698611,
+   "t_resp_us": 21.179068,
+   "t_resp_sd": 2.196652096724164,
+   "t_total_us": 53.55522933333334,
+   "t_total_sd": 5.253618617747158,
+   "t_init_med": 30.375,
+   "t_resp_med": 20.667,
+   "m4_cycles_init": 820590,
+   "m4_cycles_resp": 390881,
+   "m4_stack_init": 5412,
+   "m4_stack_resp": 5436,
+   "m4_cpu_mJ_init": 0.3846515625,
+   "m4_cpu_mJ_resp": 0.18322546874999998,
+   "asym_init_us": 19.193888333333334,
+   "asym_resp_us": 9.773610000000001,
+   "device_state_bytes": 32,
+   "gateway_state_per_device": 64,
+   "links": {
+    "802.15.4": {
+     "frames_up": 13,
+     "frames_dn": 11,
+     "frames": 24,
+     "radio_mJ": 4.136832
+    },
+    "BLE 5": {
+     "frames_up": 5,
+     "frames_dn": 4,
+     "frames": 9,
+     "radio_mJ": 4.684800000000001
+    },
+    "LoRaWAN": {
+     "frames_up": 6,
+     "frames_dn": 4,
+     "frames": 10,
+     "radio_mJ": 4.773888
+    },
+    "NB-IoT": {
+     "frames_up": 2,
+     "frames_dn": 1,
+     "frames": 3,
+     "radio_mJ": 8.865024
+    },
+    "IPv6 min": {
+     "frames_up": 2,
+     "frames_dn": 1,
+     "frames": 3,
+     "radio_mJ": 8.042496000000002
+    }
+   }
+  },
+  {
+   "name": "CLASP-0 (enrolment)",
+   "venue": "this work",
+   "year": 2026,
+   "family": "KEM",
+   "suite": "ML-KEM-512",
+   "kem": "ML-KEM-512",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    1568,
+    1552,
+    16
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 1584,
+   "bytes_dn": 1552,
+   "bytes_total": 3136,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "encaps": 1,
+     "decaps": 2
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 2
+    }
+   },
+   "t_init_us": 66.44647466666666,
+   "t_init_sd": 267.96542248338193,
+   "t_resp_us": 44.021807333333335,
+   "t_resp_sd": 15.83212828159498,
+   "t_total_us": 113.420018,
+   "t_total_sd": 279.4639907436478,
+   "t_init_med": 49.959,
+   "t_resp_med": 40.291,
+   "m4_cycles_init": 1639638,
+   "m4_cycles_resp": 1209929,
+   "m4_stack_init": 5436,
+   "m4_stack_resp": 5436,
+   "m4_cpu_mJ_init": 0.7685803124999999,
+   "m4_cpu_mJ_resp": 0.5671542187499999,
+   "asym_init_us": 39.59610833333333,
+   "asym_resp_us": 30.175830000000005,
+   "device_state_bytes": 2432,
+   "gateway_state_per_device": 800,
+   "links": {
+    "802.15.4": {
+     "frames_up": 21,
+     "frames_dn": 20,
+     "frames": 41,
+     "radio_mJ": 7.029504000000001
+    },
+    "BLE 5": {
+     "frames_up": 8,
+     "frames_dn": 7,
+     "frames": 15,
+     "radio_mJ": 7.776768000000001
+    },
+    "LoRaWAN": {
+     "frames_up": 9,
+     "frames_dn": 7,
+     "frames": 16,
+     "radio_mJ": 7.587072
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 14.601216000000003
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 13.246464000000003
+    }
+   }
+  },
+  {
+   "name": "CLASP",
+   "venue": "this work",
+   "year": 2026,
+   "family": "KEM",
+   "suite": "ML-KEM-512",
+   "kem": "ML-KEM-512",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    800,
+    784,
+    16
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 816,
+   "bytes_dn": 784,
+   "bytes_total": 1600,
+   "ops": {
+    "I": {
+     "encaps": 1,
+     "decaps": 1
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 1
+    }
+   },
+   "t_init_us": 35.15572866666667,
+   "t_init_sd": 6.310110923302238,
+   "t_resp_us": 36.58119133333334,
+   "t_resp_sd": 7.374312695661308,
+   "t_total_us": 72.95835933333333,
+   "t_total_sd": 11.838137231769739,
+   "t_init_med": 33.542,
+   "t_resp_med": 34.958,
+   "m4_cycles_init": 819048,
+   "m4_cycles_resp": 819048,
+   "m4_stack_init": 5436,
+   "m4_stack_resp": 5436,
+   "m4_cpu_mJ_init": 0.38392874999999993,
+   "m4_cpu_mJ_resp": 0.38392874999999993,
+   "asym_init_us": 20.40222,
+   "asym_resp_us": 20.40222,
+   "device_state_bytes": 2464,
+   "gateway_state_per_device": 848,
+   "links": {
+    "802.15.4": {
+     "frames_up": 11,
+     "frames_dn": 10,
+     "frames": 21,
+     "radio_mJ": 3.608064
+    },
+    "BLE 5": {
+     "frames_up": 5,
+     "frames_dn": 4,
+     "frames": 9,
+     "radio_mJ": 4.684800000000001
+    },
+    "LoRaWAN": {
+     "frames_up": 5,
+     "frames_dn": 4,
+     "frames": 9,
+     "radio_mJ": 4.2624
+    },
+    "NB-IoT": {
+     "frames_up": 2,
+     "frames_dn": 1,
+     "frames": 3,
+     "radio_mJ": 8.865024
+    },
+    "IPv6 min": {
+     "frames_up": 2,
+     "frames_dn": 1,
+     "frames": 3,
+     "radio_mJ": 8.042496000000002
+    }
+   }
+  }
+ ],
+ "ML-KEM-768": [
+  {
+   "name": "PQ-TLS 1.3",
+   "venue": "RFC 8446",
+   "year": 2018,
+   "family": "SIG",
+   "suite": "ML-KEM-768+ML-DSA-44",
+   "kem": "ML-KEM-768",
+   "sig": "ML-DSA-44",
+   "flows": 3,
+   "msg_sizes": [
+    1216,
+    3572,
+    2452
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 3668,
+   "bytes_dn": 3572,
+   "bytes_total": 7240,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 1,
+     "verify": 1,
+     "sign": 1
+    },
+    "R": {
+     "encaps": 1,
+     "sign": 1,
+     "verify": 1
+    }
+   },
+   "t_init_us": 158.08153133333334,
+   "t_init_sd": 40.61848708104498,
+   "t_resp_us": 142.765844,
+   "t_resp_sd": 42.97773048498099,
+   "t_total_us": 302.568506,
+   "t_total_sd": 61.190911693098926,
+   "t_init_med": 146.08249999999998,
+   "t_resp_med": 129.66649999999998,
+   "m4_cycles_init": 6714667,
+   "m4_cycles_resp": 6023498,
+   "m4_stack_init": 44816,
+   "m4_stack_resp": 44816,
+   "m4_cpu_mJ_init": 3.1475001562499996,
+   "m4_cpu_mJ_resp": 2.8235146875,
+   "asym_init_us": 123.49611,
+   "asym_resp_us": 108.53493,
+   "device_state_bytes": 3872,
+   "gateway_state_per_device": 1312,
+   "links": {
+    "802.15.4": {
+     "frames_up": 47,
+     "frames_dn": 45,
+     "frames": 92,
+     "radio_mJ": 15.769728000000004
+    },
+    "BLE 5": {
+     "frames_up": 16,
+     "frames_dn": 15,
+     "frames": 31,
+     "radio_mJ": 16.022016
+    },
+    "LoRaWAN": {
+     "frames_up": 18,
+     "frames_dn": 17,
+     "frames": 35,
+     "radio_mJ": 16.452864
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 3,
+     "frames": 6,
+     "radio_mJ": 17.208576000000004
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 3,
+     "frames": 6,
+     "radio_mJ": 15.611904000000003
+    }
+   }
+  },
+  {
+   "name": "PQ-TLS 1.3",
+   "venue": "RFC 8446",
+   "year": 2018,
+   "family": "SIG",
+   "suite": "ML-KEM-768+Falcon-padded-512",
+   "kem": "ML-KEM-768",
+   "sig": "Falcon-padded-512",
+   "flows": 3,
+   "msg_sizes": [
+    1216,
+    1818,
+    698
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 1914,
+   "bytes_dn": 1818,
+   "bytes_total": 3732,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 1,
+     "verify": 1,
+     "sign": 1
+    },
+    "R": {
+     "encaps": 1,
+     "sign": 1,
+     "verify": 1
+    }
+   },
+   "t_init_us": 230.18835,
+   "t_init_sd": 50.84785062148482,
+   "t_resp_us": 235.49430066666667,
+   "t_resp_sd": 708.9564027709232,
+   "t_total_us": 467.46549466666664,
+   "t_total_sd": 748.3770992148236,
+   "t_init_med": 219.167,
+   "t_resp_med": 204.1035,
+   "m4_cycles_init": null,
+   "m4_cycles_resp": null,
+   "m4_stack_init": null,
+   "m4_stack_resp": null,
+   "m4_cpu_mJ_init": null,
+   "m4_cpu_mJ_resp": null,
+   "asym_init_us": 199.42916333333335,
+   "asym_resp_us": 184.46798333333334,
+   "device_state_bytes": 2178,
+   "gateway_state_per_device": 897,
+   "links": {
+    "802.15.4": {
+     "frames_up": 25,
+     "frames_dn": 23,
+     "frames": 48,
+     "radio_mJ": 8.242560000000001
+    },
+    "BLE 5": {
+     "frames_up": 8,
+     "frames_dn": 8,
+     "frames": 16,
+     "radio_mJ": 8.245248
+    },
+    "LoRaWAN": {
+     "frames_up": 10,
+     "frames_dn": 9,
+     "frames": 19,
+     "radio_mJ": 8.95104
+    },
+    "NB-IoT": {
+     "frames_up": 2,
+     "frames_dn": 2,
+     "frames": 4,
+     "radio_mJ": 11.472384000000002
+    },
+    "IPv6 min": {
+     "frames_up": 2,
+     "frames_dn": 2,
+     "frames": 4,
+     "radio_mJ": 10.407936000000001
+    }
+   }
+  },
+  {
+   "name": "EDHOC (method 0)",
+   "venue": "RFC 9528",
+   "year": 2024,
+   "family": "SIG",
+   "suite": "ML-KEM-768+ML-DSA-44",
+   "kem": "ML-KEM-768",
+   "sig": "ML-DSA-44",
+   "flows": 3,
+   "msg_sizes": [
+    1196,
+    3518,
+    2428
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 3624,
+   "bytes_dn": 3518,
+   "bytes_total": 7142,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 1,
+     "verify": 1,
+     "sign": 1
+    },
+    "R": {
+     "encaps": 1,
+     "sign": 1,
+     "verify": 1
+    }
+   },
+   "t_init_us": 153.63387333333333,
+   "t_init_sd": 45.34915224455641,
+   "t_resp_us": 133.38462733333333,
+   "t_resp_sd": 40.10908157149018,
+   "t_total_us": 288.7491313333333,
+   "t_total_sd": 62.9791062321631,
+   "t_init_med": 139.958,
+   "t_resp_med": 121.8745,
+   "m4_cycles_init": 6714667,
+   "m4_cycles_resp": 6023498,
+   "m4_stack_init": 44816,
+   "m4_stack_resp": 44816,
+   "m4_cpu_mJ_init": 3.1475001562499996,
+   "m4_cpu_mJ_resp": 2.8235146875,
+   "asym_init_us": 123.49611,
+   "asym_resp_us": 108.53493,
+   "device_state_bytes": 3872,
+   "gateway_state_per_device": 1312,
+   "links": {
+    "802.15.4": {
+     "frames_up": 45,
+     "frames_dn": 44,
+     "frames": 89,
+     "radio_mJ": 15.240960000000001
+    },
+    "BLE 5": {
+     "frames_up": 15,
+     "frames_dn": 15,
+     "frames": 30,
+     "radio_mJ": 15.459840000000003
+    },
+    "LoRaWAN": {
+     "frames_up": 17,
+     "frames_dn": 16,
+     "frames": 33,
+     "radio_mJ": 15.515136000000002
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 3,
+     "frames": 6,
+     "radio_mJ": 17.208576000000004
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 3,
+     "frames": 6,
+     "radio_mJ": 15.611904000000003
+    }
+   }
+  },
+  {
+   "name": "KEMTLS",
+   "venue": "CCS",
+   "year": 2020,
+   "family": "KEM",
+   "suite": "ML-KEM-768",
+   "kem": "ML-KEM-768",
+   "sig": null,
+   "flows": 5,
+   "msg_sizes": [
+    1216,
+    1120,
+    1088,
+    1120,
+    32
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 2336,
+   "bytes_dn": 2240,
+   "bytes_total": 4576,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 2,
+     "encaps": 1
+    },
+    "R": {
+     "encaps": 2,
+     "decaps": 1
+    }
+   },
+   "t_init_us": 75.51339933333334,
+   "t_init_sd": 4.335878389423096,
+   "t_resp_us": 59.941146,
+   "t_resp_sd": 3.6987748462633765,
+   "t_total_us": 137.301968,
+   "t_total_sd": 7.587301620754861,
+   "t_init_med": 73.791,
+   "t_resp_med": 58.625,
+   "m4_cycles_init": 2716504,
+   "m4_cycles_resp": 2025335,
+   "m4_stack_init": 6468,
+   "m4_stack_resp": 6468,
+   "m4_cpu_mJ_init": 1.2733612499999998,
+   "m4_cpu_mJ_resp": 0.9493757812499999,
+   "asym_init_us": 59.754720000000006,
+   "asym_resp_us": 44.79354,
+   "device_state_bytes": 3584,
+   "gateway_state_per_device": 1184,
+   "links": {
+    "802.15.4": {
+     "frames_up": 31,
+     "frames_dn": 28,
+     "frames": 59,
+     "radio_mJ": 10.139904000000001
+    },
+    "BLE 5": {
+     "frames_up": 11,
+     "frames_dn": 10,
+     "frames": 21,
+     "radio_mJ": 10.868736
+    },
+    "LoRaWAN": {
+     "frames_up": 12,
+     "frames_dn": 12,
+     "frames": 24,
+     "radio_mJ": 11.252736
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 14.601216000000003
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 13.246464000000003
+    }
+   }
+  },
+  {
+   "name": "KEMTLS-PDK",
+   "venue": "ESORICS",
+   "year": 2021,
+   "family": "KEM",
+   "suite": "ML-KEM-768",
+   "kem": "ML-KEM-768",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    2304,
+    2240,
+    32
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 2336,
+   "bytes_dn": 2240,
+   "bytes_total": 4576,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "encaps": 1,
+     "decaps": 2
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 2
+    }
+   },
+   "t_init_us": 80.73278266666667,
+   "t_init_sd": 64.26408827688628,
+   "t_resp_us": 81.34858133333333,
+   "t_resp_sd": 570.1929627727366,
+   "t_total_us": 163.617948,
+   "t_total_sd": 630.1298379803568,
+   "t_init_med": 77.417,
+   "t_resp_med": 61.083,
+   "m4_cycles_init": 2716504,
+   "m4_cycles_resp": 2025335,
+   "m4_stack_init": 6468,
+   "m4_stack_resp": 6468,
+   "m4_cpu_mJ_init": 1.2733612499999998,
+   "m4_cpu_mJ_resp": 0.9493757812499999,
+   "asym_init_us": 59.75472,
+   "asym_resp_us": 44.79354,
+   "device_state_bytes": 3584,
+   "gateway_state_per_device": 1184,
+   "links": {
+    "802.15.4": {
+     "frames_up": 30,
+     "frames_dn": 28,
+     "frames": 58,
+     "radio_mJ": 9.953280000000001
+    },
+    "BLE 5": {
+     "frames_up": 11,
+     "frames_dn": 10,
+     "frames": 21,
+     "radio_mJ": 10.868736
+    },
+    "LoRaWAN": {
+     "frames_up": 12,
+     "frames_dn": 11,
+     "frames": 23,
+     "radio_mJ": 10.826496
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 14.601216000000003
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 13.246464000000003
+    }
+   }
+  },
+  {
+   "name": "PQ-WireGuard",
+   "venue": "IEEE S&P",
+   "year": 2021,
+   "family": "KEM",
+   "suite": "ML-KEM-768",
+   "kem": "ML-KEM-768",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    2388,
+    2240,
+    32
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 2420,
+   "bytes_dn": 2240,
+   "bytes_total": 4660,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "encaps": 1,
+     "decaps": 2
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 2
+    }
+   },
+   "t_init_us": 76.25819333333334,
+   "t_init_sd": 14.860648017677052,
+   "t_resp_us": 59.862528,
+   "t_resp_sd": 8.881852505936811,
+   "t_total_us": 137.580986,
+   "t_total_sd": 19.795481771837164,
+   "t_init_med": 73.916,
+   "t_resp_med": 58.167,
+   "m4_cycles_init": 2716504,
+   "m4_cycles_resp": 2025335,
+   "m4_stack_init": 6468,
+   "m4_stack_resp": 6468,
+   "m4_cpu_mJ_init": 1.2733612499999998,
+   "m4_cpu_mJ_resp": 0.9493757812499999,
+   "asym_init_us": 59.75472,
+   "asym_resp_us": 44.79354,
+   "device_state_bytes": 3584,
+   "gateway_state_per_device": 1184,
+   "links": {
+    "802.15.4": {
+     "frames_up": 31,
+     "frames_dn": 28,
+     "frames": 59,
+     "radio_mJ": 10.139904000000001
+    },
+    "BLE 5": {
+     "frames_up": 11,
+     "frames_dn": 10,
+     "frames": 21,
+     "radio_mJ": 10.868736
+    },
+    "LoRaWAN": {
+     "frames_up": 12,
+     "frames_dn": 11,
+     "frames": 23,
+     "radio_mJ": 10.826496
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 14.601216000000003
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 13.246464000000003
+    }
+   }
+  },
+  {
+   "name": "FSXY KEM-AKE",
+   "venue": "CT-RSA",
+   "year": 2012,
+   "family": "KEM",
+   "suite": "ML-KEM-768",
+   "kem": "ML-KEM-768",
+   "sig": null,
+   "flows": 2,
+   "msg_sizes": [
+    2272,
+    2176
+   ],
+   "msg_dirs": [
+    "I",
+    "R"
+   ],
+   "bytes_up": 2272,
+   "bytes_dn": 2176,
+   "bytes_total": 4448,
+   "ops": {
+    "I": {
+     "encaps": 1,
+     "keygen": 1,
+     "decaps": 2
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 2
+    }
+   },
+   "t_init_us": 73.250398,
+   "t_init_sd": 12.72157102482221,
+   "t_resp_us": 56.747282,
+   "t_resp_sd": 8.529018127456172,
+   "t_total_us": 131.27672066666668,
+   "t_total_sd": 19.99054740847883,
+   "t_init_med": 71.084,
+   "t_resp_med": 55.0415,
+   "m4_cycles_init": 2716504,
+   "m4_cycles_resp": 2025335,
+   "m4_stack_init": 6468,
+   "m4_stack_resp": 6468,
+   "m4_cpu_mJ_init": 1.2733612499999998,
+   "m4_cpu_mJ_resp": 0.9493757812499999,
+   "asym_init_us": 59.75472,
+   "asym_resp_us": 44.79354,
+   "device_state_bytes": 3584,
+   "gateway_state_per_device": 1184,
+   "links": {
+    "802.15.4": {
+     "frames_up": 29,
+     "frames_dn": 27,
+     "frames": 56,
+     "radio_mJ": 9.611136000000002
+    },
+    "BLE 5": {
+     "frames_up": 10,
+     "frames_dn": 9,
+     "frames": 19,
+     "radio_mJ": 9.838080000000003
+    },
+    "LoRaWAN": {
+     "frames_up": 11,
+     "frames_dn": 10,
+     "frames": 21,
+     "radio_mJ": 9.888768
+    },
+    "NB-IoT": {
+     "frames_up": 2,
+     "frames_dn": 2,
+     "frames": 4,
+     "radio_mJ": 11.472384000000002
+    },
+    "IPv6 min": {
+     "frames_up": 2,
+     "frames_dn": 2,
+     "frames": 4,
+     "radio_mJ": 10.407936000000001
+    }
+   }
+  },
+  {
+   "name": "Kyber.AKE",
+   "venue": "IEEE EuroS&P",
+   "year": 2018,
+   "family": "KEM",
+   "suite": "ML-KEM-768",
+   "kem": "ML-KEM-768",
+   "sig": null,
+   "flows": 2,
+   "msg_sizes": [
+    2272,
+    2176
+   ],
+   "msg_dirs": [
+    "I",
+    "R"
+   ],
+   "bytes_up": 2272,
+   "bytes_dn": 2176,
+   "bytes_total": 4448,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "encaps": 1,
+     "decaps": 2
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 2
+    }
+   },
+   "t_init_us": 74.044992,
+   "t_init_sd": 12.462298769914106,
+   "t_resp_us": 57.00528333333333,
+   "t_resp_sd": 8.512283244135435,
+   "t_total_us": 132.325734,
+   "t_total_sd": 19.92129002387255,
+   "t_init_med": 72.834,
+   "t_resp_med": 56.417,
+   "m4_cycles_init": 2716504,
+   "m4_cycles_resp": 2025335,
+   "m4_stack_init": 6468,
+   "m4_stack_resp": 6468,
+   "m4_cpu_mJ_init": 1.2733612499999998,
+   "m4_cpu_mJ_resp": 0.9493757812499999,
+   "asym_init_us": 59.75472,
+   "asym_resp_us": 44.79354,
+   "device_state_bytes": 3584,
+   "gateway_state_per_device": 1184,
+   "links": {
+    "802.15.4": {
+     "frames_up": 29,
+     "frames_dn": 27,
+     "frames": 56,
+     "radio_mJ": 9.611136000000002
+    },
+    "BLE 5": {
+     "frames_up": 10,
+     "frames_dn": 9,
+     "frames": 19,
+     "radio_mJ": 9.838080000000003
+    },
+    "LoRaWAN": {
+     "frames_up": 11,
+     "frames_dn": 10,
+     "frames": 21,
+     "radio_mJ": 9.888768
+    },
+    "NB-IoT": {
+     "frames_up": 2,
+     "frames_dn": 2,
+     "frames": 4,
+     "radio_mJ": 11.472384000000002
+    },
+    "IPv6 min": {
+     "frames_up": 2,
+     "frames_dn": 2,
+     "frames": 4,
+     "radio_mJ": 10.407936000000001
+    }
+   }
+  },
+  {
+   "name": "EDHOC-KEM",
+   "venue": "USENIX Sec.",
+   "year": 2023,
+   "family": "KEM",
+   "suite": "ML-KEM-768",
+   "kem": "ML-KEM-768",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    1196,
+    2202,
+    1112
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 2308,
+   "bytes_dn": 2202,
+   "bytes_total": 4510,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 2,
+     "encaps": 1
+    },
+    "R": {
+     "encaps": 2,
+     "decaps": 1
+    }
+   },
+   "t_init_us": 98.12239333333333,
+   "t_init_sd": 414.13877635663783,
+   "t_resp_us": 66.57878266666667,
+   "t_resp_sd": 16.178498999580675,
+   "t_total_us": 170.66954,
+   "t_total_sd": 458.2026291235662,
+   "t_init_med": 80.667,
+   "t_resp_med": 64.0,
+   "m4_cycles_init": 2716504,
+   "m4_cycles_resp": 2025335,
+   "m4_stack_init": 6468,
+   "m4_stack_resp": 6468,
+   "m4_cpu_mJ_init": 1.2733612499999998,
+   "m4_cpu_mJ_resp": 0.9493757812499999,
+   "asym_init_us": 59.754720000000006,
+   "asym_resp_us": 44.79354,
+   "device_state_bytes": 3584,
+   "gateway_state_per_device": 1184,
+   "links": {
+    "802.15.4": {
+     "frames_up": 29,
+     "frames_dn": 28,
+     "frames": 57,
+     "radio_mJ": 9.766656000000003
+    },
+    "BLE 5": {
+     "frames_up": 10,
+     "frames_dn": 10,
+     "frames": 20,
+     "radio_mJ": 10.306560000000001
+    },
+    "LoRaWAN": {
+     "frames_up": 12,
+     "frames_dn": 10,
+     "frames": 22,
+     "radio_mJ": 10.400256
+    },
+    "NB-IoT": {
+     "frames_up": 2,
+     "frames_dn": 2,
+     "frames": 4,
+     "radio_mJ": 11.472384000000002
+    },
+    "IPv6 min": {
+     "frames_up": 2,
+     "frames_dn": 2,
+     "frames": 4,
+     "radio_mJ": 10.407936000000001
+    }
+   }
+  },
+  {
+   "name": "TLS 1.3 PSK+KEM",
+   "venue": "RFC 8446",
+   "year": 2018,
+   "family": "PSK",
+   "suite": "ML-KEM-768",
+   "kem": "ML-KEM-768",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    1280,
+    1152,
+    32
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 1312,
+   "bytes_dn": 1152,
+   "bytes_total": 2464,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 1
+    },
+    "R": {
+     "encaps": 1
+    }
+   },
+   "t_init_us": 43.628412,
+   "t_init_sd": 5.351026616851761,
+   "t_resp_us": 27.829382666666667,
+   "t_resp_sd": 3.559627110278953,
+   "t_total_us": 72.64435066666667,
+   "t_total_sd": 8.377483160534128,
+   "t_init_med": 42.209,
+   "t_resp_med": 26.959,
+   "m4_cycles_init": 1349923,
+   "m4_cycles_resp": 658754,
+   "m4_stack_init": 6452,
+   "m4_stack_resp": 6468,
+   "m4_cpu_mJ_init": 0.63277640625,
+   "m4_cpu_mJ_resp": 0.3087909375,
+   "asym_init_us": 29.37027666666667,
+   "asym_resp_us": 14.409096666666667,
+   "device_state_bytes": 32,
+   "gateway_state_per_device": 64,
+   "links": {
+    "802.15.4": {
+     "frames_up": 17,
+     "frames_dn": 15,
+     "frames": 32,
+     "radio_mJ": 5.505408000000001
+    },
+    "BLE 5": {
+     "frames_up": 7,
+     "frames_dn": 5,
+     "frames": 12,
+     "radio_mJ": 6.277632
+    },
+    "LoRaWAN": {
+     "frames_up": 7,
+     "frames_dn": 6,
+     "frames": 13,
+     "radio_mJ": 6.137856
+    },
+    "NB-IoT": {
+     "frames_up": 2,
+     "frames_dn": 1,
+     "frames": 3,
+     "radio_mJ": 8.865024
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 1,
+     "frames": 4,
+     "radio_mJ": 10.881024000000002
+    }
+   }
+  },
+  {
+   "name": "CLASP-0 (enrolment)",
+   "venue": "this work",
+   "year": 2026,
+   "family": "KEM",
+   "suite": "ML-KEM-768",
+   "kem": "ML-KEM-768",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    2272,
+    2192,
+    16
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 2288,
+   "bytes_dn": 2192,
+   "bytes_total": 4480,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "encaps": 1,
+     "decaps": 2
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 2
+    }
+   },
+   "t_init_us": 76.12211066666667,
+   "t_init_sd": 8.147722394699406,
+   "t_resp_us": 59.950122,
+   "t_resp_sd": 5.730070482909961,
+   "t_total_us": 137.313466,
+   "t_total_sd": 13.184325099027406,
+   "t_init_med": 76.458,
+   "t_resp_med": 60.292,
+   "m4_cycles_init": 2716504,
+   "m4_cycles_resp": 2025335,
+   "m4_stack_init": 6468,
+   "m4_stack_resp": 6468,
+   "m4_cpu_mJ_init": 1.2733612499999998,
+   "m4_cpu_mJ_resp": 0.9493757812499999,
+   "asym_init_us": 59.75472,
+   "asym_resp_us": 44.79354,
+   "device_state_bytes": 3584,
+   "gateway_state_per_device": 1184,
+   "links": {
+    "802.15.4": {
+     "frames_up": 30,
+     "frames_dn": 28,
+     "frames": 58,
+     "radio_mJ": 9.953280000000001
+    },
+    "BLE 5": {
+     "frames_up": 11,
+     "frames_dn": 9,
+     "frames": 20,
+     "radio_mJ": 10.400256000000002
+    },
+    "LoRaWAN": {
+     "frames_up": 12,
+     "frames_dn": 10,
+     "frames": 22,
+     "radio_mJ": 10.400256
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 14.601216000000003
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 13.246464000000003
+    }
+   }
+  },
+  {
+   "name": "CLASP",
+   "venue": "this work",
+   "year": 2026,
+   "family": "KEM",
+   "suite": "ML-KEM-768",
+   "kem": "ML-KEM-768",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    1120,
+    1104,
+    16
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 1136,
+   "bytes_dn": 1104,
+   "bytes_total": 2240,
+   "ops": {
+    "I": {
+     "encaps": 1,
+     "decaps": 1
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 1
+    }
+   },
+   "t_init_us": 47.09166333333334,
+   "t_init_sd": 6.014568938889599,
+   "t_resp_us": 48.772182,
+   "t_resp_sd": 9.879947275207293,
+   "t_total_us": 97.12069733333334,
+   "t_total_sd": 15.146623760266166,
+   "t_init_med": 47.083,
+   "t_resp_med": 48.584,
+   "m4_cycles_init": 1366581,
+   "m4_cycles_resp": 1366581,
+   "m4_stack_init": 6468,
+   "m4_stack_resp": 6468,
+   "m4_cpu_mJ_init": 0.6405848437499999,
+   "m4_cpu_mJ_resp": 0.6405848437499999,
+   "asym_init_us": 30.384443333333333,
+   "asym_resp_us": 30.384443333333333,
+   "device_state_bytes": 3616,
+   "gateway_state_per_device": 1232,
+   "links": {
+    "802.15.4": {
+     "frames_up": 15,
+     "frames_dn": 14,
+     "frames": 29,
+     "radio_mJ": 4.976640000000001
+    },
+    "BLE 5": {
+     "frames_up": 6,
+     "frames_dn": 5,
+     "frames": 11,
+     "radio_mJ": 5.7154560000000005
+    },
+    "LoRaWAN": {
+     "frames_up": 7,
+     "frames_dn": 5,
+     "frames": 12,
+     "radio_mJ": 5.711616000000001
+    },
+    "NB-IoT": {
+     "frames_up": 2,
+     "frames_dn": 1,
+     "frames": 3,
+     "radio_mJ": 8.865024
+    },
+    "IPv6 min": {
+     "frames_up": 2,
+     "frames_dn": 1,
+     "frames": 3,
+     "radio_mJ": 8.042496000000002
+    }
+   }
+  }
+ ],
+ "ML-KEM-1024": [
+  {
+   "name": "PQ-TLS 1.3",
+   "venue": "RFC 8446",
+   "year": 2018,
+   "family": "SIG",
+   "suite": "ML-KEM-1024+ML-DSA-87",
+   "kem": "ML-KEM-1024",
+   "sig": "ML-DSA-87",
+   "flows": 3,
+   "msg_sizes": [
+    1600,
+    6259,
+    4659
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 6259,
+   "bytes_dn": 6259,
+   "bytes_total": 12518,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 1,
+     "verify": 1,
+     "sign": 1
+    },
+    "R": {
+     "encaps": 1,
+     "sign": 1,
+     "verify": 1
+    }
+   },
+   "t_init_us": 335.08777733333335,
+   "t_init_sd": 400.3657456002729,
+   "t_resp_us": 303.3922033333333,
+   "t_resp_sd": 179.07288349017927,
+   "t_total_us": 640.32391,
+   "t_total_sd": 452.91621229794873,
+   "t_init_med": 299.5825,
+   "t_resp_med": 280.0,
+   "m4_cycles_init": 14253468,
+   "m4_cycles_resp": 13172049,
+   "m4_stack_init": 107892,
+   "m4_stack_resp": 107892,
+   "m4_cpu_mJ_init": 6.681313124999999,
+   "m4_cpu_mJ_resp": 6.174397968749999,
+   "asym_init_us": 264.6511066666667,
+   "asym_resp_us": 241.99020333333334,
+   "device_state_bytes": 7488,
+   "gateway_state_per_device": 2592,
+   "links": {
+    "802.15.4": {
+     "frames_up": 78,
+     "frames_dn": 78,
+     "frames": 156,
+     "radio_mJ": 26.687232000000005
+    },
+    "BLE 5": {
+     "frames_up": 27,
+     "frames_dn": 26,
+     "frames": 53,
+     "radio_mJ": 27.359232000000006
+    },
+    "LoRaWAN": {
+     "frames_up": 29,
+     "frames_dn": 29,
+     "frames": 58,
+     "radio_mJ": 27.194112000000008
+    },
+    "NB-IoT": {
+     "frames_up": 6,
+     "frames_dn": 5,
+     "frames": 11,
+     "radio_mJ": 31.809792
+    },
+    "IPv6 min": {
+     "frames_up": 6,
+     "frames_dn": 6,
+     "frames": 12,
+     "radio_mJ": 31.223808000000005
+    }
+   }
+  },
+  {
+   "name": "PQ-TLS 1.3",
+   "venue": "RFC 8446",
+   "year": 2018,
+   "family": "SIG",
+   "suite": "ML-KEM-1024+Falcon-padded-1024",
+   "kem": "ML-KEM-1024",
+   "sig": "Falcon-padded-1024",
+   "flows": 3,
+   "msg_sizes": [
+    1600,
+    2912,
+    1312
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 2912,
+   "bytes_dn": 2912,
+   "bytes_total": 5824,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 1,
+     "verify": 1,
+     "sign": 1
+    },
+    "R": {
+     "encaps": 1,
+     "sign": 1,
+     "verify": 1
+    }
+   },
+   "t_init_us": 430.50688866666667,
+   "t_init_sd": 189.7898636177398,
+   "t_resp_us": 411.939588,
+   "t_resp_sd": 443.4676540961512,
+   "t_total_us": 844.3757586666667,
+   "t_total_sd": 616.654459889339,
+   "t_init_med": 410.45849999999996,
+   "t_resp_med": 387.72950000000003,
+   "m4_cycles_init": null,
+   "m4_cycles_resp": null,
+   "m4_stack_init": null,
+   "m4_stack_resp": null,
+   "m4_cpu_mJ_init": null,
+   "m4_cpu_mJ_resp": null,
+   "asym_init_us": 378.6986133333333,
+   "asym_resp_us": 356.03771,
+   "device_state_bytes": 4098,
+   "gateway_state_per_device": 1793,
+   "links": {
+    "802.15.4": {
+     "frames_up": 37,
+     "frames_dn": 36,
+     "frames": 73,
+     "radio_mJ": 12.503808000000001
+    },
+    "BLE 5": {
+     "frames_up": 13,
+     "frames_dn": 12,
+     "frames": 25,
+     "radio_mJ": 12.930048000000003
+    },
+    "LoRaWAN": {
+     "frames_up": 14,
+     "frames_dn": 14,
+     "frames": 28,
+     "radio_mJ": 13.128192
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 3,
+     "frames": 6,
+     "radio_mJ": 17.208576000000004
+    },
+    "IPv6 min": {
+     "frames_up": 4,
+     "frames_dn": 3,
+     "frames": 7,
+     "radio_mJ": 18.450432000000003
+    }
+   }
+  },
+  {
+   "name": "EDHOC (method 0)",
+   "venue": "RFC 9528",
+   "year": 2024,
+   "family": "SIG",
+   "suite": "ML-KEM-1024+ML-DSA-87",
+   "kem": "ML-KEM-1024",
+   "sig": "ML-DSA-87",
+   "flows": 3,
+   "msg_sizes": [
+    1580,
+    6205,
+    4635
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 6215,
+   "bytes_dn": 6205,
+   "bytes_total": 12420,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 1,
+     "verify": 1,
+     "sign": 1
+    },
+    "R": {
+     "encaps": 1,
+     "sign": 1,
+     "verify": 1
+    }
+   },
+   "t_init_us": 319.1784886666667,
+   "t_init_sd": 208.12757873620177,
+   "t_resp_us": 299.35790133333336,
+   "t_resp_sd": 380.0317468161043,
+   "t_total_us": 620.430732,
+   "t_total_sd": 443.7196451987525,
+   "t_init_med": 293.4795,
+   "t_resp_med": 267.292,
+   "m4_cycles_init": 14253468,
+   "m4_cycles_resp": 13172049,
+   "m4_stack_init": 107892,
+   "m4_stack_resp": 107892,
+   "m4_cpu_mJ_init": 6.681313124999999,
+   "m4_cpu_mJ_resp": 6.174397968749999,
+   "asym_init_us": 264.6511066666667,
+   "asym_resp_us": 241.99020333333334,
+   "device_state_bytes": 7488,
+   "gateway_state_per_device": 2592,
+   "links": {
+    "802.15.4": {
+     "frames_up": 78,
+     "frames_dn": 77,
+     "frames": 155,
+     "radio_mJ": 26.531712000000002
+    },
+    "BLE 5": {
+     "frames_up": 26,
+     "frames_dn": 26,
+     "frames": 52,
+     "radio_mJ": 26.797056000000005
+    },
+    "LoRaWAN": {
+     "frames_up": 29,
+     "frames_dn": 28,
+     "frames": 57,
+     "radio_mJ": 26.767872000000004
+    },
+    "NB-IoT": {
+     "frames_up": 6,
+     "frames_dn": 5,
+     "frames": 11,
+     "radio_mJ": 31.809792
+    },
+    "IPv6 min": {
+     "frames_up": 6,
+     "frames_dn": 6,
+     "frames": 12,
+     "radio_mJ": 31.223808000000005
+    }
+   }
+  },
+  {
+   "name": "KEMTLS",
+   "venue": "CCS",
+   "year": 2020,
+   "family": "KEM",
+   "suite": "ML-KEM-1024",
+   "kem": "ML-KEM-1024",
+   "sig": null,
+   "flows": 5,
+   "msg_sizes": [
+    1600,
+    1600,
+    1568,
+    1600,
+    32
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 3200,
+   "bytes_dn": 3200,
+   "bytes_total": 6400,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 2,
+     "encaps": 1
+    },
+    "R": {
+     "encaps": 2,
+     "decaps": 1
+    }
+   },
+   "t_init_us": 118.69355533333334,
+   "t_init_sd": 181.05519196495197,
+   "t_resp_us": 102.33550866666667,
+   "t_resp_sd": 365.88104047255473,
+   "t_total_us": 223.18634866666667,
+   "t_total_sd": 415.5430703382347,
+   "t_init_med": 110.0,
+   "t_resp_med": 86.209,
+   "m4_cycles_init": 4238557,
+   "m4_cycles_resp": 3157138,
+   "m4_stack_init": 7500,
+   "m4_stack_resp": 7500,
+   "m4_cpu_mJ_init": 1.9868235937499996,
+   "m4_cpu_mJ_resp": 1.4799084374999998,
+   "asym_init_us": 88.75652666666666,
+   "asym_resp_us": 66.09562333333332,
+   "device_state_bytes": 4736,
+   "gateway_state_per_device": 1568,
+   "links": {
+    "802.15.4": {
+     "frames_up": 41,
+     "frames_dn": 40,
+     "frames": 81,
+     "radio_mJ": 13.872384000000002
+    },
+    "BLE 5": {
+     "frames_up": 15,
+     "frames_dn": 14,
+     "frames": 29,
+     "radio_mJ": 14.991360000000002
+    },
+    "LoRaWAN": {
+     "frames_up": 17,
+     "frames_dn": 16,
+     "frames": 33,
+     "radio_mJ": 15.515136000000002
+    },
+    "NB-IoT": {
+     "frames_up": 5,
+     "frames_dn": 4,
+     "frames": 9,
+     "radio_mJ": 26.073600000000003
+    },
+    "IPv6 min": {
+     "frames_up": 5,
+     "frames_dn": 4,
+     "frames": 9,
+     "radio_mJ": 23.654400000000003
+    }
+   }
+  },
+  {
+   "name": "KEMTLS-PDK",
+   "venue": "ESORICS",
+   "year": 2021,
+   "family": "KEM",
+   "suite": "ML-KEM-1024",
+   "kem": "ML-KEM-1024",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    3168,
+    3200,
+    32
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 3200,
+   "bytes_dn": 3200,
+   "bytes_total": 6400,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "encaps": 1,
+     "decaps": 2
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 2
+    }
+   },
+   "t_init_us": 107.53804466666666,
+   "t_init_sd": 8.19859913554372,
+   "t_resp_us": 84.46485,
+   "t_resp_sd": 10.390224728568995,
+   "t_total_us": 193.43836133333335,
+   "t_total_sd": 17.201355442719375,
+   "t_init_med": 104.625,
+   "t_resp_med": 81.458,
+   "m4_cycles_init": 4238557,
+   "m4_cycles_resp": 3157138,
+   "m4_stack_init": 7500,
+   "m4_stack_resp": 7500,
+   "m4_cpu_mJ_init": 1.9868235937499996,
+   "m4_cpu_mJ_resp": 1.4799084374999998,
+   "asym_init_us": 88.75652666666666,
+   "asym_resp_us": 66.09562333333332,
+   "device_state_bytes": 4736,
+   "gateway_state_per_device": 1568,
+   "links": {
+    "802.15.4": {
+     "frames_up": 41,
+     "frames_dn": 40,
+     "frames": 81,
+     "radio_mJ": 13.872384000000002
+    },
+    "BLE 5": {
+     "frames_up": 14,
+     "frames_dn": 14,
+     "frames": 28,
+     "radio_mJ": 14.429184000000001
+    },
+    "LoRaWAN": {
+     "frames_up": 16,
+     "frames_dn": 15,
+     "frames": 31,
+     "radio_mJ": 14.577408000000002
+    },
+    "NB-IoT": {
+     "frames_up": 4,
+     "frames_dn": 3,
+     "frames": 7,
+     "radio_mJ": 20.337408
+    },
+    "IPv6 min": {
+     "frames_up": 4,
+     "frames_dn": 3,
+     "frames": 7,
+     "radio_mJ": 18.450432000000003
+    }
+   }
+  },
+  {
+   "name": "PQ-WireGuard",
+   "venue": "IEEE S&P",
+   "year": 2021,
+   "family": "KEM",
+   "suite": "ML-KEM-1024",
+   "kem": "ML-KEM-1024",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    3252,
+    3200,
+    32
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 3284,
+   "bytes_dn": 3200,
+   "bytes_total": 6484,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "encaps": 1,
+     "decaps": 2
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 2
+    }
+   },
+   "t_init_us": 109.50861266666666,
+   "t_init_sd": 14.302051933900005,
+   "t_resp_us": 85.76774533333334,
+   "t_resp_sd": 13.23549415928541,
+   "t_total_us": 196.74884066666667,
+   "t_total_sd": 24.96512516824112,
+   "t_init_med": 105.6665,
+   "t_resp_med": 82.1665,
+   "m4_cycles_init": 4238557,
+   "m4_cycles_resp": 3157138,
+   "m4_stack_init": 7500,
+   "m4_stack_resp": 7500,
+   "m4_cpu_mJ_init": 1.9868235937499996,
+   "m4_cpu_mJ_resp": 1.4799084374999998,
+   "asym_init_us": 88.75652666666666,
+   "asym_resp_us": 66.09562333333332,
+   "device_state_bytes": 4736,
+   "gateway_state_per_device": 1568,
+   "links": {
+    "802.15.4": {
+     "frames_up": 42,
+     "frames_dn": 40,
+     "frames": 82,
+     "radio_mJ": 14.059008000000002
+    },
+    "BLE 5": {
+     "frames_up": 15,
+     "frames_dn": 14,
+     "frames": 29,
+     "radio_mJ": 14.991360000000002
+    },
+    "LoRaWAN": {
+     "frames_up": 16,
+     "frames_dn": 15,
+     "frames": 31,
+     "radio_mJ": 14.577408000000002
+    },
+    "NB-IoT": {
+     "frames_up": 4,
+     "frames_dn": 3,
+     "frames": 7,
+     "radio_mJ": 20.337408
+    },
+    "IPv6 min": {
+     "frames_up": 4,
+     "frames_dn": 3,
+     "frames": 7,
+     "radio_mJ": 18.450432000000003
+    }
+   }
+  },
+  {
+   "name": "FSXY KEM-AKE",
+   "venue": "CT-RSA",
+   "year": 2012,
+   "family": "KEM",
+   "suite": "ML-KEM-1024",
+   "kem": "ML-KEM-1024",
+   "sig": null,
+   "flows": 2,
+   "msg_sizes": [
+    3136,
+    3136
+   ],
+   "msg_dirs": [
+    "I",
+    "R"
+   ],
+   "bytes_up": 3136,
+   "bytes_dn": 3136,
+   "bytes_total": 6272,
+   "ops": {
+    "I": {
+     "encaps": 1,
+     "keygen": 1,
+     "decaps": 2
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 2
+    }
+   },
+   "t_init_us": 122.92643466666667,
+   "t_init_sd": 582.3294764520241,
+   "t_resp_us": 89.02285,
+   "t_resp_sd": 177.37623355092276,
+   "t_total_us": 213.26691866666667,
+   "t_total_sd": 627.4881542263812,
+   "t_init_med": 106.291,
+   "t_resp_med": 82.5,
+   "m4_cycles_init": 4238557,
+   "m4_cycles_resp": 3157138,
+   "m4_stack_init": 7500,
+   "m4_stack_resp": 7500,
+   "m4_cpu_mJ_init": 1.9868235937499996,
+   "m4_cpu_mJ_resp": 1.4799084374999998,
+   "asym_init_us": 88.75652666666666,
+   "asym_resp_us": 66.09562333333332,
+   "device_state_bytes": 4736,
+   "gateway_state_per_device": 1568,
+   "links": {
+    "802.15.4": {
+     "frames_up": 39,
+     "frames_dn": 39,
+     "frames": 78,
+     "radio_mJ": 13.343616000000003
+    },
+    "BLE 5": {
+     "frames_up": 13,
+     "frames_dn": 13,
+     "frames": 26,
+     "radio_mJ": 13.398528000000002
+    },
+    "LoRaWAN": {
+     "frames_up": 15,
+     "frames_dn": 15,
+     "frames": 30,
+     "radio_mJ": 14.065920000000002
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 3,
+     "frames": 6,
+     "radio_mJ": 17.208576000000004
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 3,
+     "frames": 6,
+     "radio_mJ": 15.611904000000003
+    }
+   }
+  },
+  {
+   "name": "Kyber.AKE",
+   "venue": "IEEE EuroS&P",
+   "year": 2018,
+   "family": "KEM",
+   "suite": "ML-KEM-1024",
+   "kem": "ML-KEM-1024",
+   "sig": null,
+   "flows": 2,
+   "msg_sizes": [
+    3136,
+    3136
+   ],
+   "msg_dirs": [
+    "I",
+    "R"
+   ],
+   "bytes_up": 3136,
+   "bytes_dn": 3136,
+   "bytes_total": 6272,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "encaps": 1,
+     "decaps": 2
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 2
+    }
+   },
+   "t_init_us": 102.24124066666667,
+   "t_init_sd": 10.905526084272424,
+   "t_resp_us": 78.91194,
+   "t_resp_sd": 8.716485641533902,
+   "t_total_us": 182.34720733333333,
+   "t_total_sd": 18.029016403352298,
+   "t_init_med": 99.5,
+   "t_resp_med": 76.792,
+   "m4_cycles_init": 4238557,
+   "m4_cycles_resp": 3157138,
+   "m4_stack_init": 7500,
+   "m4_stack_resp": 7500,
+   "m4_cpu_mJ_init": 1.9868235937499996,
+   "m4_cpu_mJ_resp": 1.4799084374999998,
+   "asym_init_us": 88.75652666666666,
+   "asym_resp_us": 66.09562333333332,
+   "device_state_bytes": 4736,
+   "gateway_state_per_device": 1568,
+   "links": {
+    "802.15.4": {
+     "frames_up": 39,
+     "frames_dn": 39,
+     "frames": 78,
+     "radio_mJ": 13.343616000000003
+    },
+    "BLE 5": {
+     "frames_up": 13,
+     "frames_dn": 13,
+     "frames": 26,
+     "radio_mJ": 13.398528000000002
+    },
+    "LoRaWAN": {
+     "frames_up": 15,
+     "frames_dn": 15,
+     "frames": 30,
+     "radio_mJ": 14.065920000000002
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 3,
+     "frames": 6,
+     "radio_mJ": 17.208576000000004
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 3,
+     "frames": 6,
+     "radio_mJ": 15.611904000000003
+    }
+   }
+  },
+  {
+   "name": "EDHOC-KEM",
+   "venue": "USENIX Sec.",
+   "year": 2023,
+   "family": "KEM",
+   "suite": "ML-KEM-1024",
+   "kem": "ML-KEM-1024",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    1580,
+    3162,
+    1592
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 3172,
+   "bytes_dn": 3162,
+   "bytes_total": 6334,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 2,
+     "encaps": 1
+    },
+    "R": {
+     "encaps": 2,
+     "decaps": 1
+    }
+   },
+   "t_init_us": 120.75803466666666,
+   "t_init_sd": 20.14018597408669,
+   "t_resp_us": 95.60265,
+   "t_resp_sd": 12.452069243871344,
+   "t_total_us": 217.922676,
+   "t_total_sd": 29.029692800332743,
+   "t_init_med": 119.417,
+   "t_resp_med": 94.626,
+   "m4_cycles_init": 4238557,
+   "m4_cycles_resp": 3157138,
+   "m4_stack_init": 7500,
+   "m4_stack_resp": 7500,
+   "m4_cpu_mJ_init": 1.9868235937499996,
+   "m4_cpu_mJ_resp": 1.4799084374999998,
+   "asym_init_us": 88.75652666666666,
+   "asym_resp_us": 66.09562333333332,
+   "device_state_bytes": 4736,
+   "gateway_state_per_device": 1568,
+   "links": {
+    "802.15.4": {
+     "frames_up": 40,
+     "frames_dn": 40,
+     "frames": 80,
+     "radio_mJ": 13.685760000000002
+    },
+    "BLE 5": {
+     "frames_up": 14,
+     "frames_dn": 13,
+     "frames": 27,
+     "radio_mJ": 13.960704000000002
+    },
+    "LoRaWAN": {
+     "frames_up": 16,
+     "frames_dn": 15,
+     "frames": 31,
+     "radio_mJ": 14.577408000000002
+    },
+    "NB-IoT": {
+     "frames_up": 4,
+     "frames_dn": 3,
+     "frames": 7,
+     "radio_mJ": 20.337408
+    },
+    "IPv6 min": {
+     "frames_up": 4,
+     "frames_dn": 3,
+     "frames": 7,
+     "radio_mJ": 18.450432000000003
+    }
+   }
+  },
+  {
+   "name": "TLS 1.3 PSK+KEM",
+   "venue": "RFC 8446",
+   "year": 2018,
+   "family": "PSK",
+   "suite": "ML-KEM-1024",
+   "kem": "ML-KEM-1024",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    1664,
+    1632,
+    32
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 1696,
+   "bytes_dn": 1632,
+   "bytes_total": 3328,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "decaps": 1
+    },
+    "R": {
+     "encaps": 1
+    }
+   },
+   "t_init_us": 59.164928,
+   "t_init_sd": 3.763367288676813,
+   "t_resp_us": 36.35972866666667,
+   "t_resp_sd": 3.127937953622411,
+   "t_total_us": 96.69461733333333,
+   "t_total_sd": 6.429622392144521,
+   "t_init_med": 57.959,
+   "t_resp_med": 35.625,
+   "m4_cycles_init": 2112984,
+   "m4_cycles_resp": 1031565,
+   "m4_stack_init": 7484,
+   "m4_stack_resp": 7500,
+   "m4_cpu_mJ_init": 0.9904612499999998,
+   "m4_cpu_mJ_resp": 0.48354609374999996,
+   "asym_init_us": 43.715833333333336,
+   "asym_resp_us": 21.05493,
+   "device_state_bytes": 32,
+   "gateway_state_per_device": 64,
+   "links": {
+    "802.15.4": {
+     "frames_up": 22,
+     "frames_dn": 21,
+     "frames": 43,
+     "radio_mJ": 7.371648
+    },
+    "BLE 5": {
+     "frames_up": 8,
+     "frames_dn": 7,
+     "frames": 15,
+     "radio_mJ": 7.776768000000001
+    },
+    "LoRaWAN": {
+     "frames_up": 9,
+     "frames_dn": 8,
+     "frames": 17,
+     "radio_mJ": 8.013312
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 14.601216000000003
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 13.246464000000003
+    }
+   }
+  },
+  {
+   "name": "CLASP-0 (enrolment)",
+   "venue": "this work",
+   "year": 2026,
+   "family": "KEM",
+   "suite": "ML-KEM-1024",
+   "kem": "ML-KEM-1024",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    3136,
+    3152,
+    16
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 3152,
+   "bytes_dn": 3152,
+   "bytes_total": 6304,
+   "ops": {
+    "I": {
+     "keygen": 1,
+     "encaps": 1,
+     "decaps": 2
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 2
+    }
+   },
+   "t_init_us": 128.65713933333333,
+   "t_init_sd": 87.00053045665825,
+   "t_resp_us": 123.406696,
+   "t_resp_sd": 704.2181293428948,
+   "t_total_us": 253.83906933333333,
+   "t_total_sd": 722.2593028619914,
+   "t_init_med": 109.041,
+   "t_resp_med": 85.292,
+   "m4_cycles_init": 4238557,
+   "m4_cycles_resp": 3157138,
+   "m4_stack_init": 7500,
+   "m4_stack_resp": 7500,
+   "m4_cpu_mJ_init": 1.9868235937499996,
+   "m4_cpu_mJ_resp": 1.4799084374999998,
+   "asym_init_us": 88.75652666666666,
+   "asym_resp_us": 66.09562333333332,
+   "device_state_bytes": 4736,
+   "gateway_state_per_device": 1568,
+   "links": {
+    "802.15.4": {
+     "frames_up": 40,
+     "frames_dn": 39,
+     "frames": 79,
+     "radio_mJ": 13.530240000000003
+    },
+    "BLE 5": {
+     "frames_up": 14,
+     "frames_dn": 13,
+     "frames": 27,
+     "radio_mJ": 13.960704000000002
+    },
+    "LoRaWAN": {
+     "frames_up": 16,
+     "frames_dn": 15,
+     "frames": 31,
+     "radio_mJ": 14.577408000000002
+    },
+    "NB-IoT": {
+     "frames_up": 4,
+     "frames_dn": 3,
+     "frames": 7,
+     "radio_mJ": 20.337408
+    },
+    "IPv6 min": {
+     "frames_up": 4,
+     "frames_dn": 3,
+     "frames": 7,
+     "radio_mJ": 18.450432000000003
+    }
+   }
+  },
+  {
+   "name": "CLASP",
+   "venue": "this work",
+   "year": 2026,
+   "family": "KEM",
+   "suite": "ML-KEM-1024",
+   "kem": "ML-KEM-1024",
+   "sig": null,
+   "flows": 3,
+   "msg_sizes": [
+    1600,
+    1584,
+    16
+   ],
+   "msg_dirs": [
+    "I",
+    "R",
+    "I"
+   ],
+   "bytes_up": 1616,
+   "bytes_dn": 1584,
+   "bytes_total": 3200,
+   "ops": {
+    "I": {
+     "encaps": 1,
+     "decaps": 1
+    },
+    "R": {
+     "decaps": 1,
+     "encaps": 1
+    }
+   },
+   "t_init_us": 63.606419333333335,
+   "t_init_sd": 5.602884471486648,
+   "t_resp_us": 64.83393533333333,
+   "t_resp_sd": 5.138792527998987,
+   "t_total_us": 129.655232,
+   "t_total_sd": 10.391493731100901,
+   "t_init_med": 62.25,
+   "t_resp_med": 63.708,
+   "m4_cycles_init": 2125573,
+   "m4_cycles_resp": 2125573,
+   "m4_stack_init": 7500,
+   "m4_stack_resp": 7500,
+   "m4_cpu_mJ_init": 0.9963623437499998,
+   "m4_cpu_mJ_resp": 0.9963623437499998,
+   "asym_init_us": 45.04069333333333,
+   "asym_resp_us": 45.04069333333333,
+   "device_state_bytes": 4768,
+   "gateway_state_per_device": 1616,
+   "links": {
+    "802.15.4": {
+     "frames_up": 21,
+     "frames_dn": 20,
+     "frames": 41,
+     "radio_mJ": 7.029504000000001
+    },
+    "BLE 5": {
+     "frames_up": 8,
+     "frames_dn": 7,
+     "frames": 15,
+     "radio_mJ": 7.776768000000001
+    },
+    "LoRaWAN": {
+     "frames_up": 9,
+     "frames_dn": 8,
+     "frames": 17,
+     "radio_mJ": 8.013312
+    },
+    "NB-IoT": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 14.601216000000003
+    },
+    "IPv6 min": {
+     "frames_up": 3,
+     "frames_dn": 2,
+     "frames": 5,
+     "radio_mJ": 13.246464000000003
+    }
+   }
+  }
+ ]
+}

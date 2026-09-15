@@ -1,0 +1,71 @@
+{
+ "level": "ML-KEM-768",
+ "rows": [
+  {
+   "devices": 1000,
+   "linear_scan_ns": 2105750.0,
+   "linear_scan_measured_n": 1000,
+   "lookup_hit_ns": 152.0625,
+   "lookup_miss_ns": 133.7085,
+   "hits": 2000,
+   "entries": 1000,
+   "table_bytes": 28000,
+   "per_device_bytes": 1264
+  },
+  {
+   "devices": 5000,
+   "linear_scan_ns": 8646350.0,
+   "linear_scan_measured_n": 5000,
+   "lookup_hit_ns": 165.3125,
+   "lookup_miss_ns": 118.375,
+   "hits": 2000,
+   "entries": 5000,
+   "table_bytes": 140000,
+   "per_device_bytes": 1264
+  },
+  {
+   "devices": 20000,
+   "linear_scan_ns": 33820091.6,
+   "linear_scan_measured_n": 20000,
+   "lookup_hit_ns": 283.979,
+   "lookup_miss_ns": 115.708,
+   "hits": 2000,
+   "entries": 20000,
+   "table_bytes": 560000,
+   "per_device_bytes": 1264
+  },
+  {
+   "devices": 50000,
+   "linear_scan_ns": 85034375.0,
+   "linear_scan_measured_n": 20000,
+   "lookup_hit_ns": 440.771,
+   "lookup_miss_ns": 131.6875,
+   "hits": 2000,
+   "entries": 50000,
+   "table_bytes": 1400000,
+   "per_device_bytes": 1264
+  },
+  {
+   "devices": 100000,
+   "linear_scan_ns": 168148042.0,
+   "linear_scan_measured_n": 20000,
+   "lookup_hit_ns": 412.354,
+   "lookup_miss_ns": 148.771,
+   "hits": 2000,
+   "entries": 100000,
+   "table_bytes": 2800000,
+   "per_device_bytes": 1264
+  },
+  {
+   "devices": 200000,
+   "linear_scan_ns": 339015250.0,
+   "linear_scan_measured_n": 20000,
+   "lookup_hit_ns": 435.021,
+   "lookup_miss_ns": 181.7915,
+   "hits": 2000,
+   "entries": 200000,
+   "table_bytes": 5600000,
+   "per_device_bytes": 1264
+  }
+ ]
+}

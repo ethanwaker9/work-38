@@ -1,0 +1,13 @@
+{
+ "level": "ML-KEM-768",
+ "devices": 50,
+ "epochs": 50000,
+ "completed": 50000,
+ "distinct_pseudonyms": 50000,
+ "pseudonym_collisions": 0,
+ "wall_s": 5.0290699590113945,
+ "sessions_per_s": 9942.196153069406,
+ "max_gateway_slots": 1,
+ "gateway_state_per_device": 1264,
+ "device_state_bytes": 3616
+}

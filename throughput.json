@@ -1,0 +1,113 @@
+{
+ "level": "ML-KEM-768",
+ "rows": [
+  {
+   "name": "PQ-TLS 1.3",
+   "suite": "ML-KEM-768+ML-DSA-44",
+   "sessions": 8083,
+   "wall_s": 2.5000881669693626,
+   "responder_s": 1.160203703,
+   "sessions_per_s_end_to_end": 3233.0859794430016,
+   "responder_throughput": 6966.880022102463
+  },
+  {
+   "name": "PQ-TLS 1.3",
+   "suite": "ML-KEM-768+Falcon-padded-512",
+   "sessions": 5429,
+   "wall_s": 2.500351375027094,
+   "responder_s": 1.187069712,
+   "sessions_per_s_end_to_end": 2171.294824488886,
+   "responder_throughput": 4573.446651968828
+  },
+  {
+   "name": "EDHOC (method 0)",
+   "suite": "ML-KEM-768+ML-DSA-44",
+   "sessions": 8453,
+   "wall_s": 2.500049832975492,
+   "responder_s": 1.157499901,
+   "sessions_per_s_end_to_end": 3381.132603240739,
+   "responder_throughput": 7302.808399981021
+  },
+  {
+   "name": "KEMTLS",
+   "suite": "ML-KEM-768",
+   "sessions": 16587,
+   "wall_s": 2.500113375019282,
+   "responder_s": 1.085838965,
+   "sessions_per_s_end_to_end": 6634.499125413492,
+   "responder_throughput": 15275.745791642317
+  },
+  {
+   "name": "KEMTLS-PDK",
+   "suite": "ML-KEM-768",
+   "sessions": 17478,
+   "wall_s": 2.5000444590114057,
+   "responder_s": 1.086303517,
+   "sessions_per_s_end_to_end": 6991.075673474758,
+   "responder_throughput": 16089.425953685834
+  },
+  {
+   "name": "PQ-WireGuard",
+   "suite": "ML-KEM-768",
+   "sessions": 17528,
+   "wall_s": 2.5000535830040462,
+   "responder_s": 1.081463297,
+   "sessions_per_s_end_to_end": 7011.049730757563,
+   "responder_throughput": 16207.669782805398
+  },
+  {
+   "name": "FSXY KEM-AKE",
+   "suite": "ML-KEM-768",
+   "sessions": 18638,
+   "wall_s": 2.500022624968551,
+   "responder_s": 1.071337771,
+   "sessions_per_s_end_to_end": 7455.132531144375,
+   "responder_throughput": 17396.94100638593
+  },
+  {
+   "name": "Kyber.AKE",
+   "suite": "ML-KEM-768",
+   "sessions": 18777,
+   "wall_s": 2.513379666954279,
+   "responder_s": 1.110661987,
+   "sessions_per_s_end_to_end": 7470.817181693057,
+   "responder_throughput": 16906.133657025934
+  },
+  {
+   "name": "EDHOC-KEM",
+   "suite": "ML-KEM-768",
+   "sessions": 16173,
+   "wall_s": 2.500020208011847,
+   "responder_s": 1.091316154,
+   "sessions_per_s_end_to_end": 6469.147708554587,
+   "responder_throughput": 14819.720152332684
+  },
+  {
+   "name": "TLS 1.3 PSK+KEM",
+   "suite": "ML-KEM-768",
+   "sessions": 32875,
+   "wall_s": 2.500042583036702,
+   "responder_s": 0.973147786,
+   "sessions_per_s_end_to_end": 13149.776017042097,
+   "responder_throughput": 33782.12484573232
+  },
+  {
+   "name": "CLASP-0 (enrolment)",
+   "suite": "ML-KEM-768",
+   "sessions": 17476,
+   "wall_s": 2.5000211249571294,
+   "responder_s": 1.088800941,
+   "sessions_per_s_end_to_end": 6990.340931738999,
+   "responder_throughput": 16050.684144293004
+  },
+  {
+   "name": "CLASP",
+   "suite": "ML-KEM-768",
+   "sessions": 24820,
+   "wall_s": 2.500019707949832,
+   "responder_s": 1.260788152,
+   "sessions_per_s_end_to_end": 9927.921736406593,
+   "responder_throughput": 19686.098699950348
+  }
+ ]
+}
